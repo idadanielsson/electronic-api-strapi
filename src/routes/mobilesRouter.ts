@@ -4,7 +4,6 @@ import { MobilesController } from "../controllers/MobilesController";
 
 const client = new mobileClient();
 const controller = new MobilesController(client);
-
 const mobilesRouter = express.Router();
 
 mobilesRouter
